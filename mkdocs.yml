@@ -1,0 +1,149 @@
+site_name: Simon’s Blog
+site_author: SimonSun
+
+repo_url: https://github.com/Tendo33
+repo_name: Simon's github
+
+theme:
+  name: material
+  logo: assets/images/小狗子.png
+  palette:
+    primary: light blue
+
+  features:
+    - announce.dismiss
+    - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/dog_02.png
+
+  icon:
+    repo: fontawesome/brands/github #右上角图标
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - tags
+  - mkdocs-video
+  ## 图片放大插件
+  - glightbox:
+      effect: zoom
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - nonzoom
+  ## 文章日期插件
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - mkdocs-jupyter:
+      include_source: True
+      ignore_h1_titles: True
+      execute: True
+      allow_errors: false
+      ignore: ["name.ipynb"]
+      #execute_ignore: "path/*.ipynb"
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - def_list
+  - footnotes
+  - md_in_html
+  # - meta # 支持Markdown文件上方自定义标题标签等
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format:
+            !!python/name:pymdownx.superfences.fence_code_format # 代码块高亮插件
+
+
+  - pymdownx.arithmatex: # latex支持
+      generic: true
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true # 显示行号
+      # auto_title: true # 显示编程语言名称
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - markdown.extensions.toc:
+      slugify:
+        !!python/object/apply:pymdownx.slugs.slugify { kwds: { case: lower } }
+      permalink: "\ue157"
+
+extra_javascript:
+  # 百度的页面访问统计【暂时移除百度的访问统计（加载实在是有点慢】
+  - assets/javascripts/baidu.js
+
+  # 数学公式格式支持，用html嵌入的方式支持数学公式
+  ### mathjax2.7.1
+  ### 使用https://codepen.io/pkra/pen/EPeKjo这个项目的代码实现自动换行
+  ###（这个特性mathjax3似乎要支持但是现在还没实现
+  - assets/javascripts/mathjax.js
+
+  # 随着星期几改变主题颜色
+  #- assets/javascripts/color.js
+  # 下雪特效
+  #- https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.8/js/snow3.js
+  # 鼠标点击特效
+  - https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.1.3/js/maodian.js
+
+#extra_css:
+#  - assets/stylesheets/extra.css
+
+extra:
+  annotate:
+    json: [.s2]
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tendo33
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/40973308?spm_id_from=333.1007.0.0
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/SimonSun33
+    - icon: fontawesome/solid/paper-plane
+      link: https://shrouded-whistle-7b3.notion.site/ff1982c84e844b53a20966db6ec282f2?v=9d898ec09f974b419e0aa6053070e584&pvs=4
+
+dev:
