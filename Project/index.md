@@ -3,6 +3,7 @@ title: 胡作非为
 hide:
 - feedback
 - comments
+- edit
 ---
 
 # 开源项目🚧
@@ -13,4 +14,4 @@ hide:
 <hr>
 AIboy996's Github chart：
 
-![AIboy996's Github chart](http://ghchart.rshah.org/AIboy996){.nozoom}
+![SimonSun's Github chart](http://ghchart.rshah.org/Tendo33){.nozoom}
