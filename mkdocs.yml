@@ -72,7 +72,6 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
-  # - meta # 支持Markdown文件上方自定义标题标签等
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
@@ -82,6 +81,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.smartsymbols
   - pymdownx.tilde
+
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid

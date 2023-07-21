@@ -1,10 +1,11 @@
 ---
 tags:
-- About
+- Simon's Home
 hide:
 - tags
 - edit
 - feedback
+edit_url: false
 ---
 
 # 👋Bienvenue
