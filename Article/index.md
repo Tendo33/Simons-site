@@ -4,6 +4,7 @@ hide:
 - feedback
 - comments
 - edit
+edit: false
 ---
 
 # 文章📰
