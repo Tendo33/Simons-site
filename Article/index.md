@@ -4,7 +4,6 @@ hide:
 - feedback
 - comments
 - edit
-edit: false
 ---
 
 # 文章📰
@@ -14,5 +13,5 @@ edit: false
 
 > 当然当然，我在这儿写的东西一般都没有什么深刻的意味，引鲁迅的这句话只是占个地方。
 
-左侧可见全部文章列表
+
 
