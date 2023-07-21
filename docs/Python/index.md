@@ -1,5 +1,5 @@
 ---
-title: Python从入门到入狱
+title: 最美的language
 tags:
 - python入门
 hide:
