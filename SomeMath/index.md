@@ -1,5 +1,5 @@
 ---
-title: 胡数八道
+title: 人間真理
 hide:
 - feedback
 - comments
