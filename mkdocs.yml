@@ -145,7 +145,9 @@ extra:
       link: https://twitter.com/SimonSun33
     - icon: fontawesome/solid/paper-plane
       link: https://simonsun3.notion.site/ff1982c84e844b53a20966db6ec282f2?v=9d898ec09f974b419e0aa6053070e584&pvs=4
+
 nav:
+  - Home: index.md
   - Article:
       - Article/index.md
       - Docker:
@@ -182,7 +184,7 @@ nav:
           - Blog/2023/curriculum.md
           - Blog/2023/考研.md
           - Blog/2023/music.md
-          - Blog/2023/卖身2.md
+          - Blog/2023/记一次肠胃炎.md
           - Blog/2023/paper.md
           - Blog/2023/travel_to_japan.md
           - Blog/2023/中等数学复健.md
