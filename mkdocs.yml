@@ -72,7 +72,6 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
-  # - meta # 支持Markdown文件上方自定义标题标签等
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
@@ -82,6 +81,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.smartsymbols
   - pymdownx.tilde
+
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -144,9 +144,10 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/SimonSun33
     - icon: fontawesome/solid/paper-plane
-      link: https://shrouded-whistle-7b3.notion.site/ff1982c84e844b53a20966db6ec282f2?v=9d898ec09f974b419e0aa6053070e584&pvs=4
+      link: https://simonsun3.notion.site/ff1982c84e844b53a20966db6ec282f2?v=9d898ec09f974b419e0aa6053070e584&pvs=4
 
 nav:
+  - Home: index.md
   - Article:
       - Article/index.md
       - Docker:
@@ -179,11 +180,11 @@ nav:
       - 2022:
           - Blog/2022/2022年度总结.md
       - 2023:
-          - Blog/2023/卖身.md
+          - Blog/2023/卖身oneflow.md
           - Blog/2023/curriculum.md
           - Blog/2023/考研.md
           - Blog/2023/music.md
-          - Blog/2023/卖身2.md
+          - Blog/2023/记一次肠胃炎.md
           - Blog/2023/paper.md
           - Blog/2023/travel_to_japan.md
           - Blog/2023/中等数学复健.md

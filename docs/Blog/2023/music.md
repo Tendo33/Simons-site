@@ -1,6 +1,7 @@
 ---
 tags:
 - blog
+- music
 ---
 
 # 音乐和记忆
