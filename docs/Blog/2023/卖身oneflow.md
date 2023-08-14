@@ -89,4 +89,4 @@ img {
 
 > 可是离别怎么可能不难过
 
-<img src="./assets/guangnian.jpeg" style="zoom:70%;" />
+<img src="./assets/guangnian.jpeg" style="zoom:80%;" />
