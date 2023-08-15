@@ -89,4 +89,6 @@ img {
 
 > 可是离别怎么可能不难过
 
-<img src="./assets/guangnian.jpeg" style="zoom:80%;" />
+<figure markdown>
+![image-20230804](./assets/guangnian.jpeg){width=500}
+</figure>
