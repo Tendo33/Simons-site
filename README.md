@@ -1,6 +1,7 @@
 
 # SimonSun's blog😊
 
+**You can scan QR to enter the website more quickly：**
 
 <img src="docs/assets/images/SimonQR.jpg" alt="image" width="300" height="300">
 
