@@ -151,9 +151,7 @@ nav:
   - Article:
       - Article/index.md
       - Docker:
-          - Article/Docker/docker简介.md
-          - Article/Docker/docker基础.md
-          - Article/Docker/docker进阶.md
+          - Article/Docker/常用命令行及详解.md
       - Git:
           - Article/Git/git.md
           - Article/Git/git_server.md
