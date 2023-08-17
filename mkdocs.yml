@@ -150,8 +150,7 @@ nav:
   - Home: index.md
   - Article:
       - Article/index.md
-      - Docker:
-          - Article/Docker/常用命令行及详解.md
+      - Article/Docker/常用命令行及详解.md
       - Git:
           - Article/Git/git.md
           - Article/Git/git_server.md
