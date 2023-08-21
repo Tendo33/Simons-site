@@ -178,13 +178,14 @@ nav:
           - Blog/2022/2022年度总结.md
       - 2023:
           - Blog/2023/卖身oneflow.md
+          - Blog/2023/读我与地坛有感.md
+          - Blog/2023/读百年孤独有感.md
           - Blog/2023/curriculum.md
           - Blog/2023/印象.md
           - Blog/2023/music.md
           - Blog/2023/记一次肠胃炎.md
           - Blog/2023/旅游.md
-          - Blog/2023/读百年孤独有感.md
-          - Blog/2023/读我与地坛有感.md
+
   - Python:
       - Python/index.md
       - Python/python前置知识.md
