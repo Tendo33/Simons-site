@@ -2,19 +2,33 @@ site_name: Simon’s Blog
 site_author: SimonSun
 
 repo_url: https://github.com/Tendo33
-repo_name: Simon's github
+repo_name: Simons's Blog
+edit_uri: Simons-site/blob/main/docs/ # 编辑路径
 
 theme:
   name: material
   logo: assets/images/小狗子.png
+  #palette:
+  #primary: light blue
   palette:
-    primary: light blue
+    - scheme: default
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
   features:
     - announce.dismiss
     - content.code.annotate
     - content.code.copy
-    # - content.tabs.link
+    - content.tabs.link
     - content.tooltips
     # - header.autohide
     # - navigation.expand
