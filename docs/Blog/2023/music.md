@@ -36,6 +36,7 @@ tags:
 
 ## 人民不需要自由
 > 逼哥算是我摇滚乐的启蒙老师，我会永远想你
+
 这是整个社会的悲哀
 
 ## 西湖
@@ -51,12 +52,14 @@ tags:
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=500 height=90 src="//music.163.com/outchain/player?type=2&id=447925058&userid=375567587&auto=0&height=66"></iframe>
 
 傍晚，操场，健身的健身，跑步的跑步，唱歌的唱歌。我们挑选一块空地席地而坐，听着民谣，聊到星星月亮都出来。
+
 今晚，我不关心人类，我只想你。
 
 ## 盛唐游（Original Mix）
 > 喜欢过一段时间电音，感觉好久没听过了
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=500 height=90 src="//music.163.com/outchain/player?type=2&id=447925058&userid=498852355&auto=0&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=500 height=90 src="//music.163.com/outchain/player?type=2&id=498852355&userid=375567587&auto=0&height=66"></iframe>
 
 想起了跟好友租房子同住的时光了，三个人挤在一个不超过20平米的空间里，当时可真是快乐啊
+
 欲买桂花同载酒，终不似，少年游。
