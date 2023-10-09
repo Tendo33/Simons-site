@@ -1,13 +1,14 @@
 ---
-title: 基于Python的AirPrint虚拟打印机
+title: 基于stm32的可见光通信系统
 tags:
-- python项目
+- stm32项目
+- C语言
 - 开源项目
 ---
 
 # AirPrint-with-Python
 
 !!! failure inline
-    完成初步开发（虚拟打印机注册，在windows上工作正常），airprint部分暂未实现，暂时搁置。
+    完成初步开发, 已经画好了发送端和接收端的PCB板子并完成了相应程序的编写。
 
-[![AIboy996/AirPrint-with-Python - GitHub](https://gh-card.dev/repos/AIboy996/AirPrint-with-Python.svg?fullname=)](https://github.com/AIboy996/AirPrint-with-Python)
+[![Tendo33/LI-FI - GitHub](https://gh-card.dev/repos/Tendo33/LI-FI.svg?fullname=)](https://github.com/Tendo33/LI-FI)
