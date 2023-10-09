@@ -8,7 +8,7 @@ hide:
 
 !!! quote "Riemann hypothesis"
 	定义：
-	$$\zeta(s)=\frac{1}{2\pi i}\Gamma(1-s)\oint_\gamma \frac{z^{s-1}e^z}{1-e^z}dz$$
+	$zeta(s)=\frac{1}{2\pi i}\Gamma(1-s)\oint_\gamma \frac{z^{s-1}e^z}{1-e^z}dz$
 	
 	已知$\zeta(s)$有平凡零点$-2, -4, -6\cdots$
 	
