@@ -236,11 +236,11 @@ nav:
           - Python/应用案例/Excel/csv2xlsx.md
   - Project:
       - Project/index.md
-      - Project/plt-gallery.md
-      - Project/Course-Selection-System.md
-      - Project/qrq.md
-      - Project/pymd.md
+      - Project/YOLOv5-steel-defect-detect.md
       - Project/high_school_math.md
+      - Project/Tp-Cuda-LeNet5.md
+      - Project/pymd.md
+      - Project/YOLOv7-weed-detection.md
       - Project/LI-FI.md
   - Statistics:
       - Statistics/index.md
