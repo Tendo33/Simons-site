@@ -161,12 +161,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tendo33.github.io/Simons-site/Project/Course-Selection-System/</loc>
+         <loc>https://tendo33.github.io/Simons-site/Project/LI-FI/</loc>
          <lastmod>2023-10-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tendo33.github.io/Simons-site/Project/LI-FI/</loc>
+         <loc>https://tendo33.github.io/Simons-site/Project/Tp-Cuda-LeNet5/</loc>
+         <lastmod>2023-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tendo33.github.io/Simons-site/Project/YOLOv5-steel-defect-detect/</loc>
+         <lastmod>2023-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tendo33.github.io/Simons-site/Project/YOLOv7-weed-detection/</loc>
          <lastmod>2023-10-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -176,17 +186,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tendo33.github.io/Simons-site/Project/plt-gallery/</loc>
-         <lastmod>2023-10-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://tendo33.github.io/Simons-site/Project/pymd/</loc>
-         <lastmod>2023-10-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://tendo33.github.io/Simons-site/Project/qrq/</loc>
          <lastmod>2023-10-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
