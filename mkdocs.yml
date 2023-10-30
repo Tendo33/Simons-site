@@ -80,7 +80,7 @@ plugins:
       lang:
         - en
         # 日语搜索汉字
-        - zh
+        #- zh 中文暂不支持
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
