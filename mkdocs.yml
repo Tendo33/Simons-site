@@ -263,12 +263,8 @@ nav:
           - Statistics/统计计算.md
           - Statistics/数据挖掘.md
           - Statistics/模式识别和机器学习.md
-  - SomeMath:
-      - SomeMath/index.md
-      - 杂题:
-          - SomeMath/一道复杂极限.md
-      - SomeMath/泰勒展开/泰勒展开.md
-      - SomeMath/线性齐次差分方程.md
-      - SomeMath/双曲函数.md
-      - Montmort:
-          - SomeMath/Montmort问题（一）.md
+  - AI_learning:
+      - AI_learning/index.md
+      - AI_learning/environment.md
+      #- DeepLearning:
+      #- DeepLearning/一道复杂极限.md
