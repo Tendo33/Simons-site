@@ -51,11 +51,11 @@
 <span class=normal><a href=#__codelineno-2-2>2</a></span>
 <span class=normal><a href=#__codelineno-2-3>3</a></span>
 <span class=normal><a href=#__codelineno-2-4>4</a></span>
-<span class=normal><a href=#__codelineno-2-5>5</a></span></pre></div></td><td class=code><div><pre><span></span><code><a id=__codelineno-2-1 name=__codelineno-2-1></a>ps -ef | grep python ,  watch pgrep -af python
+<span class=normal><a href=#__codelineno-2-5>5</a></span></pre></div></td><td class=code><div><pre><span></span><code><a id=__codelineno-2-1 name=__codelineno-2-1></a><span class=nx>ps</span><span class=w> </span><span class=o>-</span><span class=nx>ef</span><span class=w> </span><span class=o>|</span><span class=w> </span><span class=nx>grep</span><span class=w> </span><span class=nx>python</span><span class=w> </span><span class=p>,</span><span class=w>  </span><span class=nx>watch</span><span class=w> </span><span class=nx>pgrep</span><span class=w> </span><span class=o>-</span><span class=nx>af</span><span class=w> </span><span class=nx>python</span>
 <a id=__codelineno-2-2 name=__codelineno-2-2></a>
-<a id=__codelineno-2-3 name=__codelineno-2-3></a>watch 'pgrep -f python | xargs -r ps -o pid,user,%cpu,%mem,cmd | grep -v grep | grep -v watch'
+<a id=__codelineno-2-3 name=__codelineno-2-3></a><span class=nx>watch</span><span class=w> </span><span class=s1>'pgrep -f python | xargs -r ps -o pid,user,%cpu,%mem,cmd | grep -v grep | grep -v watch'</span>
 <a id=__codelineno-2-4 name=__codelineno-2-4></a>
-<a id=__codelineno-2-5 name=__codelineno-2-5></a>python -m nvitop
+<a id=__codelineno-2-5 name=__codelineno-2-5></a><span class=nx>python</span><span class=w> </span><span class=o>-</span><span class=nx>m</span><span class=w> </span><span class=nx>nvitop</span>
 </code></pre></div></td></tr></table></div> <ul> <li><strong>打印CPU信息：<code>lscpu</code></strong></li> <li><strong>查看IB版本：<code>ofed_info -s</code></strong></li> <li><strong>加权限：</strong><code>chmod +x /data/sunjinfeng/test_data/write_data.sh</code></li> <li><strong>查看当前目录下所有文件和子目录大小：<code>du -sh *</code></strong></li> <li><strong>当前文件夹数量：<code>ls -la | grep conv2d.weight | wc -l</code></strong></li> <li><strong>定时任务</strong><code>crontab -e</code></li> </ul> <div class=highlight><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal><a href=#__codelineno-3-1>1</a></span>
 <span class=normal><a href=#__codelineno-3-2>2</a></span></pre></div></td><td class=code><div><pre><span></span><code><a id=__codelineno-3-1 name=__codelineno-3-1></a><span class=c1># 用指定的 GPU 进行训练</span>
 <a id=__codelineno-3-2 name=__codelineno-3-2></a><span class=nb>export</span><span class=w> </span><span class=nv>CUDA_VISIBLE_DEVICES</span><span class=o>=</span><span class=m>0</span>,1,2,3,4,5,6,7
