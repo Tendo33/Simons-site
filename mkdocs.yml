@@ -186,6 +186,8 @@ nav:
           - Blog/2023/十二月大雪弥漫.md
           - Blog/2023/北京的雪.md
           - Blog/2023/最后一天.md
+      - 2024:
+          - Blog/2024/第一个新年.md
   - Article:
       - Article/index.md
       - Article/常用命令行及详解.md
